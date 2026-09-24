@@ -13,7 +13,7 @@
 
 ---
 
-## What is ProRes Creation? (plain English)
+## What is ProRes Creation?
 
 **ProRes Creation turns ordinary video files into Apple ProRes `.mov` files** — the editing-friendly intermediate format used in Premiere, Resolve, Final Cut, and many broadcast pipelines.
 
