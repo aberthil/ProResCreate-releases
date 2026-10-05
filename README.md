@@ -1,4 +1,4 @@
-﻿# ProRes Creation
+# ProRes Creation
 
 <p align="center">
   <img src="assets/prores-creation.png" alt="ProRes Creation" width="128" />
@@ -15,20 +15,20 @@
 
 ## What is ProRes Creation?
 
-**ProRes Creation turns ordinary video files into Apple ProRes `.mov` files** — the editing-friendly intermediate format used in Premiere, Resolve, Final Cut, and many broadcast pipelines.
+**ProRes Creation turns ordinary video files into Apple ProRes `.mov` files** - the editing-friendly intermediate format used in Premiere, Resolve, Final Cut, and many broadcast pipelines.
 
-You drop files in, pick a profile (default **422 HQ**), click **Start**. The app probes the source, encodes ProRes, copies audio into a `.mov`, and verifies the output isn’t empty. Finished files land in a `\prores\` folder next to your source.
+You drop files in, pick a profile (default **422 HQ**), click **Start**. The app probes the source, encodes ProRes, copies audio into a `.mov`, and verifies the output isn't empty. Finished files land in a `\prores\` folder next to your source.
 
-No fancy AI — just a reliable batch converter with a queue, log, and optional Pushover “done” pings.
+No fancy AI - just a reliable batch converter with a queue, log, and optional Pushover "done" pings.
 
 ### What happens to each file
 
 | Step | In plain words |
 |------|----------------|
-| **1 · Probe** | Read frames / resolution with ffprobe. |
-| **2 · Encode** | Write ProRes (`prores_ks`) on CPU or GPU path. |
-| **3 · Write** | Package `.mov` and copy audio. |
-| **4 · Verify** | Confirm output size &gt; 0. |
+| **1 - Probe** | Read frames / resolution with ffprobe. |
+| **2 - Encode** | Write ProRes (`prores_ks`) on CPU or GPU path. |
+| **3 - Write** | Package `.mov` and copy audio. |
+| **4 - Verify** | Confirm output size &gt; 0. |
 
 ### Profiles (quick guide)
 
@@ -48,13 +48,13 @@ No fancy AI — just a reliable batch converter with a queue, log, and optional 
   <img src="assets/gui-main.png" alt="ProRes Creation main window" width="480" />
 </p>
 
-<p align="center"><em>Main window — drop files, Probe → Encode → Write → Verify.</em></p>
+<p align="center"><em>Main window - drop files, Probe -> Encode -> Write -> Verify.</em></p>
 
 <p align="center">
   <img src="assets/gui-settings.png" alt="ProRes Creation Settings" width="360" />
 </p>
 
-<p align="center"><em>Settings — profile, resolution, encoder/GPU, destination, App update, Pushover.</em></p>
+<p align="center"><em>Settings - profile, resolution, encoder/GPU, destination, App update, Pushover.</em></p>
 
 ---
 
@@ -62,8 +62,8 @@ No fancy AI — just a reliable batch converter with a queue, log, and optional 
 
 1. Install from [Releases](https://github.com/aberthil/ProResCreate-releases/releases/latest) and open **ProRes Creation**.  
 2. **Browse** or **drag-and-drop** videos / a folder.  
-3. Optional: **Settings** → ProRes profile (default **422 HQ**) and destination.  
-4. **+ Add to Queue** → **Start**.  
+3. Optional: **Settings** -> ProRes profile (default **422 HQ**) and destination.  
+4. **+ Add to Queue** -> **Start**.  
 5. Open the `\prores\` folder beside your source when it finishes.
 
 ---
@@ -89,7 +89,7 @@ Installs to `C:\DolbyVisionScripts\ProResCreate` by default. Settings / Pushover
 |--|--|
 | OS | Windows 10/11 **x64** |
 | CPU / GPU | CPU encode works everywhere; GPU path when available |
-| Disk | ProRes is **large** — plan several× source size for HQ/XQ |
+| Disk | ProRes is **large** - plan several times source size for HQ/XQ |
 
 ---
 
@@ -97,7 +97,7 @@ Installs to `C:\DolbyVisionScripts\ProResCreate` by default. Settings / Pushover
 
 ### v1.0.1
 
-See [Releases](https://github.com/aberthil/ProResCreate-releases/releases) for each Setup’s notes.
+See [Releases](https://github.com/aberthil/ProResCreate-releases/releases) for each Setup's notes.
 
 ---
 
